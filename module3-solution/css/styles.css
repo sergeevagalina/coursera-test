@@ -1,0 +1,53 @@
+* {
+	color: black;
+}
+.navbar {
+	background-color: gray;
+	border-radius: 0;
+	border: 1px solid black;
+}
+a h1 {
+	color: black;
+	margin: auto;
+	font-size: 30px;
+}
+h2 {
+	margin-bottom: 30px;
+}
+.navbar-brand {
+	height: 60px;
+}
+.navbar-default .navbar-nav>li>a {
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+	text-align: center;
+}
+.navbar-nav {
+	margin: 0 -15px;
+}
+.navbar-default .navbar-toggle {
+	border-color: black;
+}
+/*.navbar-default .navbar-toggle:hover {
+	border-color: #ddd;
+	background-color: gray;
+}*/
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: black;
+}
+.navbar-default .navbar-collapse {
+	border-color: black;
+}
+.row {
+	width: 98%;
+	height: 1000px;
+	margin: auto;
+	background-color: gray;
+}
+
+@media (max-width: 767px) {
+	.row {
+		width: 75%;
+	}
+}
